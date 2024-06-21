@@ -22,12 +22,13 @@ int Hero::Mana = 0;
 
 int main()
 {
-    /* test
+    
     const int MaxMana = 10; //максимальное значение
     Hero *ManaPoints[MaxMana];
     for (int i = 0; i < MaxMana; i++)
     {
         ManaPoints[i] = new Hero(i);
+        cout << "Your hero has points of mana " << MaxMana << "/" << ManaPoints[i]->GetMana() << " points.\n";
     }
     for (int i = 0; i < MaxMana; i++)
     {
@@ -35,7 +36,7 @@ int main()
 
         delete ManaPoints[i];
         ManaPoints[i] = nullptr;
-    }*/
+    }
 
     return 0;
 }
